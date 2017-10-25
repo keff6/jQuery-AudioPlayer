@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/style.css" type="text/css">
+ 
+  <title>Audio Player</title>
+</head>
+<body>
+  <div id="container">
+    <div id="audio-img">
+      <img class="cover">
+    </div>
+    <div id="audio-player">
+      <div id="audio-info">
+        <span class="artist"></span> - <span class="title"></span>
+      </div>
+      <input type="range" id="volume" min="0" max="10" value="5">
+      <br>
+      <div id="audio-buttons">
+        <button id="prev"></button>
+        <button id="play"></button>
+        <button id="pause"></button>
+        <button id="stop"></button>
+        <button id="next"></button>        
+      </div>
+      <div class="clearfix"></div>
+      <div id="tracker">
+        <div id="progressbar">
+          <span id="progress">            
+          </span>
+        </div>
+        <span id="duration"></span>
+      </div>
+      <div class="clearfix"></div>
+      <ul id="playlist">
+        <li song="Linkin Park - Papercut.mp3" cover="cover1.jpg" artist="Linkin Park">Papercut.mp3</li>
+      </ul>
+    </div>
+  </div>
+  
+   <!-- SCRIPTS > -->
+   <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script>
+  <!-- < SCRIPTS  -->
+</body>
+</html>
