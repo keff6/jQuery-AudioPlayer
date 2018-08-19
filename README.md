@@ -3,8 +3,8 @@
 An Audio Player Interface build on:
 
 * HTML
-*CSS
-*jQuery
+* CSS
+* jQuery
 
 
 
