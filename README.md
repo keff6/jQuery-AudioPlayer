@@ -1,2 +1,10 @@
 # jQuery-AudioPlayer
-An Audio Player build on HTML, CSS and jQuery
+
+An Audio Player Interface build on:
+
+* HTML
+*CSS
+*jQuery
+
+
+
